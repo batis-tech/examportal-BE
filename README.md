@@ -1,24 +1,26 @@
-# README
+Exams portal
+This project was generated with Ruby on rails 6 API and Angular CLI version 12.1.3,tailwindCSS framework.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Be aware that the app relies on Rails API which requier an api confirgration with rails.
 
-Things you may want to cover:
+Configuration
+you only need to navigate to services folder in test.service file to apply the httpLink .
 
-* Ruby version
+Development server
+Run Rails s for a dev server. Navigate to http://localhost:3000/. The app will automatically reload then you would have an access to rails api.
+Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
 
-* System dependencies
+Code scaffolding
+Run ng generate component component-name to generate a new component. You can also use ng generate directive|pipe|service|class|guard|interface|enum|module.
 
-* Configuration
+Build
+Run ng build to build the project. The build artifacts will be stored in the dist/ directory.
 
-* Database creation
+Running unit tests
 
-* Database initialization
+Run rspec test to execute the unit tests.
 
-* How to run the test suite
+Running end-to-end tests
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Further help
+To get more help on the Rails go to ROR official https://api.rubyonrails.org/.
